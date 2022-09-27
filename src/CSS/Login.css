@@ -1,0 +1,77 @@
+.login-container{
+  font-family: cursive;
+  background: linear-gradient(to right, #339cfe,#e482e9);
+  text-align: center;
+  width: 400px;
+  height: 350px;
+  margin: 0 auto;
+  margin-top: 150px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px black;
+}
+
+
+.login-content{
+  position:absolute;
+  width: 400px;
+  margin-top: 5px;
+}
+
+.login-content h1{
+  color: #ffffff;
+  text-shadow: 2px 2px 1px black;
+}
+
+.login-container input{
+  box-shadow: 2px 2px 3px black;
+  border-radius: 5px;
+  font-size: 17px;
+  margin-top: 10px;
+  width: 150px;
+  padding: 5px;
+  border: none;
+}
+
+.low-section{
+  margin-top: 20px;
+}
+
+.createBtn{
+  margin-top: 10px;
+  font-size: 15px;
+  font-family: cursive;
+  letter-spacing: 2px;
+  background: none;
+  border: none;
+  color: navy;
+  text-shadow: 1px 1px 5px white;
+}
+
+.createBtn:hover{
+  cursor: pointer;
+  font-size: 17px;
+
+}
+
+.enterBtn:hover{
+  cursor: pointer;
+  background-color: lightgray;
+}
+
+.enterBtn{
+  box-shadow: 2px 2px 3px black;
+  background-color: white;
+  border-radius: 5px;
+  width: 160px;
+  padding: 5px;
+  border: none;
+  font-family: cursive;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 25px;
+}
+
+.login-content h5{
+  margin-top: 25px;
+  margin-bottom: 0px;
+}

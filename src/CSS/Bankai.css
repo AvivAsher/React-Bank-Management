@@ -1,0 +1,47 @@
+
+body {
+  text-align: center;
+  font-family: cursive;
+}
+
+.bankai-container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.bankai-frame {
+  background: linear-gradient(to right, #339cfe,#e482e9);
+  width: 1000px;
+  margin: 0 auto;
+  padding: 5px;
+  box-shadow: 1px 2px 5px black;
+  border-radius: 5px;
+}
+
+.bankai-container h2, h3 {
+  color: #ffffff;
+  text-shadow: 2px 2px 1px black;
+}
+
+.foot h5{
+  margin: 0;
+  margin-top: 30px;
+}
+
+.back-to-home button{
+  color: white;
+  margin-left: 10px;
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px black;
+  text-shadow: 1px 1px 2px black;
+  background: linear-gradient(to right, #339cfe,#e482e9);
+  font-family: cursive;
+}
+
+.back-to-home button:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}

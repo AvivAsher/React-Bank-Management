@@ -1,0 +1,39 @@
+.user-row {
+  display: flex;
+  justify-content: center;
+}
+
+.perUserDiv {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  padding: 4px;
+  border: 1px solid black;
+  border-radius: 3px;
+  width: 894px;
+  background: white;
+}
+
+.details-section {
+  margin-top: 5px;
+}
+
+
+.details-btn {
+  background: none;
+  border: 1px solid black;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px black;
+}
+
+.del-user-btn {
+  background: white;
+  border: 1px solid black;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px black;
+  padding: 7px;
+}
+
+.details-btn:hover {
+  background: lightgray;
+}
